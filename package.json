@@ -4,7 +4,8 @@
   "description": "@ webpack-lesson",
   "main": "index.js",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "schema-utils": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-rc.1",
@@ -15,11 +16,12 @@
     "imagemin": "^6.0.0",
     "imagemin-mozjpeg": "^7.0.0",
     "img-loader": "^3.0.0",
+    "loader-runner": "^2.3.0",
     "raw-loader": "^0.5.1",
-    "url-loader": "^1.0.1",
+    "url-loader": "^1.1.1",
     "vue": "^2.5.17",
-    "vue-loader": "^15.3.0",
-    "vue-style-loader": "^4.1.1",
+    "vue-loader": "^15.4.1",
+    "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.5.17",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0"

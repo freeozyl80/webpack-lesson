@@ -117,11 +117,13 @@ ps: template 相当于html, style 相当于css，script相当于js
    1.  this.callback，一个可以同步或者异步调用的可以返回多个结果的函数。这个 API 支持返回多个内容的结果给下一个 Loader 。
   e.g:
 // return multiple result
-<code> module.exports = function(source, other) {
+<code> 
+module.exports = function(source, other) {
   // do whatever you want
   // ...
   this.callback(null, source, other);
-}; </code>
+}; 
+</code>
 this.callback 预设参数如下
 this.callback(
   err: Error | null,

@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "this is testing for loader-utils:\r\n获取options:{\"param\":\"value\"}\r\nparseQuery:{\"searchParm\":\"webpack\",\"t\":\"2018\"}\r\nstringifyRequest:\"test\"\r\nurlToRequest./?searchParm=webpack&t=2018"
+throw new Error("Module build failed (from ./schema-loader.js):\nValidationError: ./loader.js Invalid Options\n\noptions.param should be string\n\n    at validateOptions (/Users/alamozhou/code/zyl/webpack-lesson/node_modules/schema-utils/src/validateOptions.js:32:11)\n    at Object.module.exports (/Users/alamozhou/code/zyl/webpack-lesson/chapter5/demo03_loader/schema-loader.js:15:15)");
 
 /***/ }),
 

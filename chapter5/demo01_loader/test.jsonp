@@ -1,0 +1,8 @@
+callback({
+    "code": {
+        "javascript": {
+            "print": "console.log()",
+            "tool": "webpak!"
+        }
+    }
+})

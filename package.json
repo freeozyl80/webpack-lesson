@@ -3,9 +3,24 @@
   "version": "1.0.0",
   "description": "@ webpack-lesson",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
   "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "imagemin": "^6.0.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "img-loader": "^3.0.0",
     "raw-loader": "^0.5.1",
+    "url-loader": "^1.0.1",
+    "vue": "^2.5.17",
+    "vue-loader": "^15.3.0",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.17",
     "webpack": "^4.16.3",
     "webpack-cli": "^3.1.0"
   },

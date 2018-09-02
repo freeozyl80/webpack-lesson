@@ -1,0 +1,1 @@
+welcome to Next Webpack Lesson, this is loader.
